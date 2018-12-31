@@ -109,4 +109,6 @@ class MaxProfitTests(unittest.TestCase):
 		self.assertEqual(max_profit_naive(self.prices4), self.ev4)
 
 
+if __name__ == '__main__':
+    unittest.main()
 

@@ -76,11 +76,12 @@ class IntersectTests(unittest.TestCase):
 		self.ev2 = [4, 9]
 
 	def test_intersect(self):
-		self.assertEqual(intersect(self.nums11, self.nums21), self.ev1)
-		self.assertEqual(intersect(self.nums12, self.nums22), self.ev2)
+		self.assertEqual(sorted(intersect(self.nums11, self.nums21)), self.ev1)
+		self.assertEqual(sorted(intersect(self.nums12, self.nums22)), self.ev2)
 
 	def test_intersect_sorted(self):
 		self.assertEqual(intersect_sorted(sorted(self.nums11), sorted(self.nums21)), self.ev1)
 		self.assertEqual(intersect_sorted(sorted(self.nums12), sorted(self.nums22)), self.ev2)
 
-
+if __name__ == '__main__':
+    unittest.main()
