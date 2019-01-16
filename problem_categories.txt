@@ -1,0 +1,37 @@
+1. Sorting
+- Mergesort
+- Quicksort
+
+2. Heaps
+
+3. Dynamic programming
+- Longest common subsequence (LCS)
+- Knapsack problem
+- 
+
+4. Trees
+- AVL tree
+- shu zu xing shi (array)
+- zhi zhen xing shi (pointer)
+
+5. Graphs
+- storage?
+- Shortest path (SPFA)
+- Strongly connected components
+- tuo pu pai xu
+
+6. Minimal spanning tree
+- Using DFS (biggest space)
+
+
+7. ju zhen yun suan (kuai su mi (exponentials))
+- optimize dynamic programming
+
+8. String matching/pattern searching
+- KMP
+
+9. Useful tools
+- Two pointers
+- Partitioning
+- s
+- Space vs time (using more space to save time)
